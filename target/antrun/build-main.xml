@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="D:\practice\maven pratice\phonepay\gift card\giftcard\target/giftcard.zip">
+    <zipfileset includes="lib/**" dir="D:\practice\maven pratice\phonepay\gift card\giftcard\target"/>
+    <zipfileset includes="giftcard.jar" dir="D:\practice\maven pratice\phonepay\gift card\giftcard\target"/>
+    <zipfileset includes="readme.txt" dir="D:\practice\maven pratice\phonepay\gift card\giftcard"/>
+  </zip>
+</target>
+</project>
